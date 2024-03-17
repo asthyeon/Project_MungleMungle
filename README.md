@@ -29,62 +29,6 @@
 ### 문제 해결
 반려견 전용 SNS를 만들어 이러한 문제를 해결할 수 있습니다. 이 SNS는 반려견의 일상을 기록하고 공유할 수 있는 기능, 반려견을 키우는 데 필요한 정보를 공유하고 얻을 수 있는 기능, 그리고 유사한 취향이나 경험을 가진 사용자들끼리 매칭하여 소통할 수 있는 기능을 제공합니다. 또한, 반려견과의 산책을 기록하고, 이를 통해 반려견의 건강 상태를 관리하고 향상시키는 데 도움을 줄 수 있습니다. 이러한 특화된 기능들을 통해 반려견을 키우는 사람들이 자신과 반려견의 일상을 더욱 풍요롭게 만들 수 있게 돕습니다.
 
-## 🤝 팀원 소개
-
-### 김태현 (프론트엔드, 팀장)
-### 김평섭 (프론트엔드)
-### 배정식 (프론트엔드, 테크리더)
-### 이윤지 (백엔드)
-### 이지원 (백엔드)
-### 이형우 (백엔드, 테크리더)
-
-## 💻 기술 스택
-
-### FrontEnd & BackEnd
-
-[![React Native](https://img.shields.io/badge/React_Native-0.73.2-blue?style=flat&logo=react)](https://reactnative.dev/)
-[![Kakao Map API](https://img.shields.io/badge/API-Kakao_Map-red?style=flat)](https://developers.kakao.com/docs/latest/ko/local/dev-guide)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2.1-green?style=flat&logo=spring)](https://spring.io/projects/spring-boot)
-[![Java](https://img.shields.io/badge/Java-17-orange?style=flat&logo=java)](https://www.oracle.com/java/)
-[![MariaDB](https://img.shields.io/badge/MariaDB-10.11.6-yellow?style=flat&logo=mariadb)](https://mariadb.org/)
-[![Redis](https://img.shields.io/badge/Redis-7.2.4-red?style=flat&logo=redis)](https://redis.io/)
-[![WebSocket](https://img.shields.io/badge/WebSocket-gray?style=flat&logo=websocket)](https://en.wikipedia.org/wiki/WebSocket)
-
-### Cooperation
-
-[![Git](https://img.shields.io/badge/Git-gray?style=flat&logo=git)](https://git-scm.com/)
-[![GitLab](https://img.shields.io/badge/GitLab-gray?style=flat&logo=gitlab)](https://about.gitlab.com/)
-[![Notion](https://img.shields.io/badge/Notion-gray?style=flat&logo=notion)](https://www.notion.so/)
-[![Jira](https://img.shields.io/badge/Jira-gray?style=flat&logo=jira)](https://www.atlassian.com/software/jira)
-[![Mattermost](https://img.shields.io/badge/Mattermost-gray?style=flat&logo=mattermost)](https://mattermost.com/)
-
-### Tools
-
-[![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-2023.3.2-red?style=flat&logo=intellij-idea)](https://www.jetbrains.com/idea/)
-[![Android Studio](https://img.shields.io/badge/Android_Studio-2023.1.1-green?style=flat&logo=android-studio)](https://developer.android.com/studio)
-[![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-1.85.1-blue.svg?style=flat&logo=visual-studio-code)](https://code.visualstudio.com/)
-
-
-
-
-### Infra
-
-[![AWS EC2](https://img.shields.io/badge/AWS_EC2-gray?style=flat&logo=amazon-aws)](https://aws.amazon.com/ec2/)
-[![Docker](https://img.shields.io/badge/Docker-24.0.7-blue?style=flat&logo=docker)](https://www.docker.com/)
-[![AWS S3](https://img.shields.io/badge/AWS_S3-gray?style=flat&logo=amazon-s3)](https://aws.amazon.com/s3/)
-[![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04.06-purple?style=flat&logo=ubuntu)](https://ubuntu.com/)
-
-## 🏛️ 아키텍처
-
-![구조](/images/구조.png)
-
-## 📊 ERD 다이어그램
-
-![ERD](/images/ERD.png)
-
-## 🎨 와이어프레임
-<img src="/images/와이어프레임.png"  width="400px" height="600px">
-
 ## 🐕 주요 기능
 
 <img src="/images/로그인.png"  width="200px" height="400px">
@@ -145,6 +89,66 @@
 ### DM
 - DM방을 클릭하면 이전의 메세지가 표시되고, 이어서 대화할 수 있습니다.
 - 더하기 버튼을 클릭하고, 새로운 유저와 대화할 수 있습니다.
+
+### 김태현 회고
+- React -> React Native로의 전환
+-   사용자 관점에서 바라볼 때 SNS의 사용성은 웹보다는 모바일로의 사용성이 훨씬 더 높다고 판단하여 프로젝트 중간에 React Native로 전환하여 모바일 앱으로 개발하였습니다. 특히 산책 기능의 GPS 기능의 정확도와 백그라운드에서의 사용을 위해 전환하였으나 일정 관리가 어려웠습니다. 시간에 쫓기듯이 프로젝트를 진행하여서 완성도면에서 아쉬운 부분들이 많았습니다. 그래서 기획/설계 관점에서부터 시간을 더 투자하여 사용자 경험을 고려하여 진행하는 것이 중요하다는 것을 깨달았습니다.
+- 팀장으로서의 역할
+-   팀장이 어떠한 사고 방식을 가지느냐에 따라 팀의 분위기가 달라졌었습니다. 일정 관리 부분에서 조바심을 느껴 불안함을 보였을 때 팀원들 또한 불안해하는 것을 느꼈고, 그에 따라 어떻게든 해낼 수 있다는 긍정적인 사고방식을 지니며 팀원을 다독이자 프로젝트 능률이 더 올라갈 수 있었습니다. 또한 팀원들의 의견을 서로 존중해줌으로써 적극적인 피드백 수용이 가능하였고, 원활한 의사소통이 이루어지는데 일조할 수 있었습니다.
+
+## 🤝 팀원 소개
+
+### 김태현 (프론트엔드, 팀장)
+### 김평섭 (프론트엔드)
+### 배정식 (프론트엔드, 테크리더)
+### 이윤지 (백엔드)
+### 이지원 (백엔드)
+### 이형우 (백엔드, 테크리더)
+
+## 💻 기술 스택
+
+### FrontEnd & BackEnd
+
+[![React Native](https://img.shields.io/badge/React_Native-0.73.2-blue?style=flat&logo=react)](https://reactnative.dev/)
+[![Kakao Map API](https://img.shields.io/badge/API-Kakao_Map-red?style=flat)](https://developers.kakao.com/docs/latest/ko/local/dev-guide)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2.1-green?style=flat&logo=spring)](https://spring.io/projects/spring-boot)
+[![Java](https://img.shields.io/badge/Java-17-orange?style=flat&logo=java)](https://www.oracle.com/java/)
+[![MariaDB](https://img.shields.io/badge/MariaDB-10.11.6-yellow?style=flat&logo=mariadb)](https://mariadb.org/)
+[![Redis](https://img.shields.io/badge/Redis-7.2.4-red?style=flat&logo=redis)](https://redis.io/)
+[![WebSocket](https://img.shields.io/badge/WebSocket-gray?style=flat&logo=websocket)](https://en.wikipedia.org/wiki/WebSocket)
+
+### Cooperation
+
+[![Git](https://img.shields.io/badge/Git-gray?style=flat&logo=git)](https://git-scm.com/)
+[![GitLab](https://img.shields.io/badge/GitLab-gray?style=flat&logo=gitlab)](https://about.gitlab.com/)
+[![Notion](https://img.shields.io/badge/Notion-gray?style=flat&logo=notion)](https://www.notion.so/)
+[![Jira](https://img.shields.io/badge/Jira-gray?style=flat&logo=jira)](https://www.atlassian.com/software/jira)
+[![Mattermost](https://img.shields.io/badge/Mattermost-gray?style=flat&logo=mattermost)](https://mattermost.com/)
+
+### Tools
+
+[![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-2023.3.2-red?style=flat&logo=intellij-idea)](https://www.jetbrains.com/idea/)
+[![Android Studio](https://img.shields.io/badge/Android_Studio-2023.1.1-green?style=flat&logo=android-studio)](https://developer.android.com/studio)
+[![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-1.85.1-blue.svg?style=flat&logo=visual-studio-code)](https://code.visualstudio.com/)
+
+
+### Infra
+
+[![AWS EC2](https://img.shields.io/badge/AWS_EC2-gray?style=flat&logo=amazon-aws)](https://aws.amazon.com/ec2/)
+[![Docker](https://img.shields.io/badge/Docker-24.0.7-blue?style=flat&logo=docker)](https://www.docker.com/)
+[![AWS S3](https://img.shields.io/badge/AWS_S3-gray?style=flat&logo=amazon-s3)](https://aws.amazon.com/s3/)
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04.06-purple?style=flat&logo=ubuntu)](https://ubuntu.com/)
+
+## 🏛️ 아키텍처
+
+![구조](/images/구조.png)
+
+## 📊 ERD 다이어그램
+
+![ERD](/images/ERD.png)
+
+## 🎨 와이어프레임
+<img src="/images/와이어프레임.png"  width="400px" height="600px">
 
 ## ⚙️ 전체 기능 소개
 

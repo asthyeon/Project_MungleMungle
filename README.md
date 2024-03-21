@@ -1,4 +1,4 @@
-
+# 반려견 모바일 SNS 큐레이팅 프로젝트
 <img src="/images/logo.png"  width="400px" height="200px">
 
 # 목차
